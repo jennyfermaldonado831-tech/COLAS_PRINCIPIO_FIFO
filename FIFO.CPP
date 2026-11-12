@@ -10,10 +10,10 @@ int main() {
 Nodo* frente = NULL;
 Nodo* final = NULL;
 
-int datos[3] = {10, 20, 30};
+int datos[5] = {10, 20, 30, 40, 50};
 
 cout << "ENTRANDO A LA COLA... " << endl;
-for (int i = 0; i < 3; i++) {
+for (int i = 0; i < 5; i++) {
 Nodo* nuevo = new Nodo();
 nuevo->dato = datos[i];
 nuevo->next = NULL;
